@@ -1,102 +1,56 @@
-\# Reusable AI Workflows
+# Reusable AI Workflows
 
+Reusable AI workflows help teams use GitHub Copilot in a consistent, scalable, and token-efficient way for enterprise development.
 
+## What this repository is for
 
-\## Purpose
+This folder contains reusable AI workflow templates that support different stages of software development, including:
 
+- gathering project context
+- turning requirements into user stories
+- designing APIs
+- building backend and frontend code
+- generating tests
+- reviewing code
+- following a complete SDLC workflow
 
+## Available workflow files
 
-This folder contains reusable AI workflow templates for enterprise-grade AI-assisted development.
-
-
-
-These files help teams use GitHub Copilot in a repeatable, scalable, and token-efficient way.
-
-
-
-\## Workflow Files
-
-
-
-| File | Purpose |
-
+| File | What it does |
 |---|---|
+| `shared-context.md` | Stores project-specific context |
+| `requirement-assistant.md` | Converts requirements into user stories |
+| `api-design-assistant.md` | Helps design endpoints and DTOs |
+| `backend-build-assistant.md` | Generates backend code |
+| `frontend-build-assistant.md` | Generates frontend code |
+| `test-assistant.md` | Creates test scenarios and test code |
+| `review-assistant.md` | Reviews selected files or code |
+| `workflow-checklist.md` | Guides the full software development workflow |
 
-| shared-context.md | Project-specific context |
+## How to use these templates
 
-| requirement-assistant.md | Converts requirements into user stories |
+1. Update `shared-context.md` with your project details.
+2. Choose the assistant file that matches the development stage you are working on.
+3. Give the assistant a small, focused task.
+4. Ask for a limited and specific output.
+5. Review all AI-generated content carefully before using it.
 
-| api-design-assistant.md | Designs endpoints and DTOs |
+## Simple formula
 
-| backend-build-assistant.md | Generates backend code |
+**Reusable AI Role**  
++ **Project Context**  
++ **Specific Task**  
+= **Controlled AI Output**
 
-| frontend-build-assistant.md | Generates frontend code |
+## Example
 
-| test-assistant.md | Generates test scenarios and test code |
+Using `shared-context.md` and `backend-build-assistant.md`:
 
-| review-assistant.md | Reviews focused files or code |
-
-| workflow-checklist.md | Guides the full SDLC workflow |
-
-
-
-\## Recommended Usage
-
-
-
-1\. Update `shared-context.md` for the project.
-
-2\. Use the assistant file that matches the SDLC phase.
-
-3\. Provide a small, focused task.
-
-4\. Ask for constrained output.
-
-5\. Review all AI-generated output manually.
-
-
-
-\## Formula
-
-
-
-Reusable AI Role  
-
-\+ Project Context  
-
-\+ Specific Task  
-
-= Controlled AI Output
-
-
-
-\## Example
-
-
-
-```text
-
-Using shared-context.md and backend-build-assistant.md:
-
-
-
-Generate only CustomerCreateDto.cs.
-
-
-
-Fields:
-
-\- FullName
-
-\- Email
-
-\- PhoneNumber
-
-\- City
-
-
-
-Include validation attributes.
-
-Return only code.
-
+- Generate only `CustomerCreateDto.cs`
+- Fields:
+  - FullName
+  - Email
+  - PhoneNumber
+  - City
+- Include validation attributes
+- Return only the code
