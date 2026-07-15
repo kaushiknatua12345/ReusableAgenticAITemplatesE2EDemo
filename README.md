@@ -1,10 +1,10 @@
-# Reusable AI Workflows
+# Reusable AI Templates
 
-Reusable AI workflows help teams use GitHub Copilot in a consistent, scalable, and token-efficient way for enterprise development.
+Reusable AI templatess help teams use GitHub Copilot in a consistent, scalable, and token-efficient way for enterprise development.
 
 ## What this repository is for
 
-This folder contains reusable AI workflow templates that support different stages of software development, including:
+This folder contains reusable AI templates templates that support different stages of software development, including:
 
 - gathering project context
 - turning requirements into user stories
@@ -14,7 +14,7 @@ This folder contains reusable AI workflow templates that support different stage
 - reviewing code
 - following a complete SDLC workflow
 
-## Available workflow files
+## Available templates files
 
 | File | What it does |
 |---|---|
@@ -25,7 +25,7 @@ This folder contains reusable AI workflow templates that support different stage
 | `frontend-build-assistant.md` | Generates frontend code |
 | `test-assistant.md` | Creates test scenarios and test code |
 | `review-assistant.md` | Reviews selected files or code |
-| `workflow-checklist.md` | Guides the full software development workflow |
+| `templates-checklist.md` | Guides the full software development templates |
 
 ## How to use these templates
 
